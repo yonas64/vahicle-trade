@@ -1,0 +1,79 @@
+.navbar {
+    background: #01011c;
+    opacity: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+a.nav-link {
+    color: #d1cdf9;
+    font-weight: 20px;
+    text-decoration: none;
+}
+
+.logout_and_pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background: #f69206;
+    position: absolute;
+    right: 10px;
+}
+
+.logout_link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #eadfdf;
+    margin: 10px;
+    padding: 5px;
+    border: 1px, solid, #464141;
+    align-self: end;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+img.navbar-brand {
+    width: 200px;
+}
+
+.bs_button {
+    display: flex;
+    align-items: center;
+}
+
+.bs_button #sell_button {
+    background: transparent;
+    border: 1px solid #f69206;
+    color: #eadfdf;
+}
+
+.container {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+}
+
+.container .catagory_link {
+    font-size: 30px;
+    color: #f69206;
+}
+
+.horizontal-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    /* Optional: Add some padding for spacing */
+}
